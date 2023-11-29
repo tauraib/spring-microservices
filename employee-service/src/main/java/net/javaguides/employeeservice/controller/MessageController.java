@@ -13,4 +13,10 @@ public class MessageController {
     public String message(){
         return message;
     }
+
+    @GetMapping("update")
+    public String update(){
+
+    return "taurai";
+    }
 }
